@@ -1,0 +1,107 @@
+
+amigo, queria orçar contigo as peças básicas da Voron 2.4 e queria ter uma idéia de preço antes do orçamento em si para ir adiantando.
+
+está tudo no github, em VoronDesign/Voron-2/tree/pr_v2.4r2/STLs. Não são todas as peças, são apenas as peças estruturais para o básico da impressora.
+
+Setup de impressão
+https://docs.vorondesign.com/sourcing.html#print-settings
+
+	Cor base = black/preto
+	Accent Color = red/vermelho
+
+	MATERIAL: ABS
+	Layer height: 0.2mm
+	Extrusion width: 0.4mm, forced
+	Infill percentage: 40%
+	Infill type: grid, gyroid, honeycomb, triangle, or cubic
+	Wall count: 4
+	Solid top/bottom layers: 5
+	Supports: NONE
+
+Peças do kit básico:
+https://github.com/VoronDesign/Voron-2/tree/pr_v2.4r2/STLs
+
+\Gantry										bag03
+	z_chain_bottom_anchor.stl				opcional
+	z_chain_guide.stl						opcional
+	[a]_z_belt_clip_lower_x4.stl
+	[a]_z_belt_clip_upper_x4.stl
+	8 pcs									2 opcionais
+
+\Gantry\AB_Drive_Units						bag04
+	a_drive_frame_lower.stl
+	a_drive_frame_upper.stl
+	b_drive_frame_lower.stl
+	b_drive_frame_upper.stl
+	[a]_cable_cover.stl						opcional
+	[a]_z_chain_retainer_bracket_x2.stl		opcional x2
+	4 pcs									3 opcionais
+
+\Gantry\Front_Idlers						bag05
+	front_idler_left_lower.stl
+	front_idler_left_upper.stl
+	front_idler_right_lower.stl
+	front_idler_right_upper.stl
+	[a]_tensioner_left.stl
+	[a]_tensioner_right.stl
+	6 pcs									0 opcionais
+
+\Gantry\X_Axis\X_Carriage					bag06
+	x_carriage_frame_left_MGN12.stl
+	x_carriage_frame_right_MGN12.stl
+	2 pcs									0 opcionais
+
+\Gantry\X_Axis\XY_Joints					bag08
+	xy_joint_left_lower_MGN12.stl
+	xy_joint_left_upper_MGN12.stl
+	xy_joint_right_lower_MGN12.stl
+	xy_joint_right_upper_MGN12.stl
+	[a]_endstop_pod_D2F_switch.stl
+	[a]_xy_joint_cable_bridge_3hole.stl
+	6 pcs									0 opcionais
+
+\Gantry\Z_Joints							bag09
+	z_joint_lower_x4.stl
+	z_joint_upper_hall_effect.stl
+	z_joint_upper_x4.stl
+	9 pcs									0 opcionais
+
+\Skirts										bag12
+	power_inlet_IECGS_1mm.stl
+	1 pc									0 opcionais
+
+\Tools										bag14
+	MGN12_rail_guide_x2.stl					opcional x2
+	MGN9_rail_guide_x2.stl					opcional x2
+	pulley_jig.stl							opcional
+	0 pcs									5 opcionais
+
+\Z_Drive									bag15
+	z_drive_main_a_x2.stl
+	z_drive_main_b_x2.stl
+	z_drive_retainer_a_x2.stl
+	z_drive_retainer_b_x2.stl
+	z_motor_mount_a_x2.stl
+	z_motor_mount_b_x2.stl
+	[a]_belt_tensioner_a_x2.stl
+	[a]_belt_tensioner_b_x2.stl
+	[a]_z_drive_baseplate_a_x2.stl
+	[a]_z_drive_baseplate_b_x2.stl
+	20 pcs									0 opcionais
+
+\Z_Endstop									bag16
+	nozzle_probe.stl
+	1 pc									0 opcionais
+
+\Z_Idlers									bag17
+	z_tensioner_bracket_a_x2.stl
+	z_tensioner_bracket_b_x2.stl
+	[a]_z_tensioner_x4_9mm.stl
+	5 pcs									0 opcionais
+
+\Panel_Mounting								bagxx
+	deck_support_4mm_x8.stl					opcional x8
+	0 pcs									8 opcionais
+
+
+=== 62 pcs básicas							18 opcionais = TOTAL 80 peças
