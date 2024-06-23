@@ -1,8 +1,4 @@
 
-amigo, queria orçar contigo as peças básicas da Voron 2.4 e queria ter uma idéia de preço antes do orçamento em si para ir adiantando.
-
-está tudo no github, em VoronDesign/Voron-2/tree/pr_v2.4r2/STLs. Não são todas as peças, são apenas as peças estruturais para o básico da impressora.
-
 Setup de impressão
 https://docs.vorondesign.com/sourcing.html#print-settings
 
